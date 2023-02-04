@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .admin-btn {
+    @apply bg-[#091f1c] text-white font-bold p-2 flex-1 rounded-lg border border-emerald-800 hover:bg-emerald-500/50;
+  }
+}
