@@ -21,7 +21,7 @@ const CountdownTimer = () => {
 
     if (completed) {
       return (
-        <p className="mb-5 transition-all animate-bounce duration-400">
+        <p className="mb-5 transition-all animate-bounce duration-400 text-center">
           Tickets sales are <b>CLOSED</b> for this draw.
         </p>
       );
